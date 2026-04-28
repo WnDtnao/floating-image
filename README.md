@@ -3,7 +3,7 @@ keep updating this if i dont need it, but just enjoy what is made.
 
 Edit the code or the whole program, do what you want with it, idk.
 
-To run the program, just run the Python file in VSCode or using Python
+To run the program, just run the Python file in VSCode, using Python or straight up the .exe file
 
 - Wnd :)
 
