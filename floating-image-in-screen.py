@@ -58,7 +58,7 @@ class FloatingImageApp:
         self.opacity_scale.pack(side=tk.LEFT, fill=tk.X, expand=True)
 
         small_font = tkfont.Font(size=8)
-        self.credits_label = tk.Label(self.root, text="Créditos: WnDetonao", fg="white", bg="#333333", font=small_font)
+        self.credits_label = tk.Label(self.root, text="Créditos: WnDetonao. Ver: TSC-28426TF6 Comp T-114-02", fg="white", bg="#333333", font=small_font)
         self.credits_label.pack(side=tk.BOTTOM, pady=(0,4))
 
         self.current_image = None
@@ -184,4 +184,4 @@ if __name__ == "__main__":
     app = FloatingImageApp(root)
     root.mainloop()
 
-# Dont ask me how i made it work, i have no fucking idea
+# Dont ask me how i made it work, i have no fucking idea and i dont think i will know it soon or later... maybe later

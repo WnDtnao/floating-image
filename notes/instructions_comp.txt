@@ -1,0 +1,9 @@
+To compile the way i did it, just run this on the Terminal in VSCode 
+(if something gave u a error, dont ask me how i made it work, i dont know eiter)
+
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m pip install pyinstaller
+pyinstaller --onefile --windowed --name FloatingImage floating-image-in-screen.py
