@@ -9,18 +9,6 @@ try:
 except AttributeError:
     RESAMPLE_FILTER = Image.ANTIALIAS
 
-# TEST
-
-# REQUIRED_VERSION = (3, 13, 12)
-# if tuple(sys.version_info[:3]) != REQUIRED_VERSION:
-#     root_tmp = tk.Tk()
-#     root_tmp.withdraw()
-#     messagebox.showerror(
-#         "Versión de Python incorrecta",
-#         f"Se requiere Python {REQUIRED_VERSION[0]}.{REQUIRED_VERSION[1]}.{REQUIRED_VERSION[2]}.\nLa Versión actual: {sys.version.split()[0]} NO ES COMPATIBLE."
-#     )
-#     sys.exit(1)
-
 
 class FloatingImageApp:
     def __init__(self, root):
